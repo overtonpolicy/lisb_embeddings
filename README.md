@@ -7,6 +7,7 @@ The code is an example of creating embeddings for a set of abstracts, stored in 
 There's some sample data in the repo to make this easier:
 
 *abstracts.txt* - is the abstracts data, fetched from OpenAlex
+
 *aris.txt* - is the aris data, fetched from the ari.org.uk API
 
 ## Seting up your environment
@@ -25,6 +26,10 @@ You may need to install the numpy library too in the same way.
 The `get_embeddings.py` script will read in a text file called `input.txt` and then save embeddings to a file called `embeddings.json`
 
 It uses the OpenAI API, for which you'll need an API key - see https://platform.openai.com/signup
+
+Edit the script to put your API key where it says xxx on this line:
+
+        openai.api_key = "xxx"
 
 If you want to use the sample files included in the repository, either edit the file to read `abstracts.txt` or `aris.txt`, or just copy one of them to a new file called `input.txt`
 
