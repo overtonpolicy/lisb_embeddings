@@ -49,4 +49,12 @@ It'll print out any pairs where the semantic distance is less than some arbitrar
 
 To use it with the data in this repo, run `get_embeddings.py` over the aris and abstracts and save the output to `ari_embeddings.json` and `paper_embeddings.json` respectively.
 
+## Notes and caveats
+
+This is very rough and ready, and just to show you how easy it is to get started. There's a lot to explore beyond this!
+
+Cleaning your input data is usually more work than the actual analysis. We spent a lot of time cleaning up abstracts, policy documents and engagement opportunties like the ARIs (the two text files in this repository aren't cleaned, they're just raw outputs).
+
+The model you use to create the embeddings can make a big difference - in this code we're using an off the shelf OpenAI model called `text-embedding-3-small`, but you'll hear about "fine tuned" models: these are models that somebody has reinforced certain relationships between words via lots of extra training data. You might want to, for example, find a model that has been fine tuned on scholarly content.
+
 
