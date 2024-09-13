@@ -2,7 +2,7 @@
 
 This is sample code from a presentation at the LIS-B 2024 conference in Brighton where we talked about how embeddings in a bibliometrics context are easy and cheap to explore.
 
-The code is an example of creating embeddings for a set of abstracts, stored in a text file one per line, and a set of Areas of Research Interest from the UK government, also stored in a text file one per line.
+It creates embeddings for a set of abstracts, stored in a text file one per line, and a set of Areas of Research Interest from the UK government, also stored in a text file one per line. It then compares the two to try and pair abstract / ARI pairs on the same subject.
 
 There's some sample data in the repo to make this easier:
 
