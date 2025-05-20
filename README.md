@@ -1,4 +1,4 @@
-# Matching abstracts to arbitray text
+# Matching abstracts to arbitrary text
 
 This is sample code from a presentation at the LIS-B 2024 conference in Brighton where we talked about how embeddings in a bibliometrics context are easy and cheap to explore.
 
